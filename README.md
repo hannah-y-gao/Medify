@@ -20,3 +20,11 @@ We faced several challenges as beginners to hackathons. Despite having basic and
 
 We borrowed code from OpenAI's GPT-3 API (https://github.com/manekinekko/openai-chat/tree/main).
 
+## Installation
+
+Create a `.env` file, paste in your custom OpenAI API key. To get a key, first activate a [Billing Account](https://platform.openai.com/account/billing/overview) and then retrieve your key [here](https://platform.openai.com/account/api-keys).
+
+
+To install dependencies, type `npm install` into the terminal. To run, type `vercel dev` into the terminal and follow the provided link to open the chat bot on your browser.
+
+
