@@ -1,0 +1,104 @@
+/* Our default values set as CSS variables */
+:root {
+  --color-text-main: #434C5E;
+  --color-primary: #434C5E;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "Helvetica";
+  --font-family-header: "Helvetica";
+}
+
+/* Basic page style resets */
+* {
+  box-sizing: content-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Import fonts */
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+h1 {
+  color: rgb(225, 23, 12);
+  font-size: 50px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+body {
+  color: blue;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* Page structure */
+.wrapper {
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* bots / message */
+
+.container {
+  max-width: 8000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #88C0D0;
+}
+
+#messages {
+  background: rgba(255, 255, 255, .8);
+  border: 3px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 500px; #changed from 700
+  font-size: 30px
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.user-message {
+  font-weight: bold;
+  color: black;
+}
+
+.bot-message {
+  font-family: 'Helvetica', sans-serif;
+  color: #434C5E;
+  font-size: 20px;
+}
+
+input[type=text] {
+  border:2px solid #ccc; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 800px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.form-group{
+  display: flex;
+  align-items: center;
+}
