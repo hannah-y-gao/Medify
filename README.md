@@ -18,7 +18,7 @@ We faced several challenges as beginners to hackathons. Despite having basic and
 
 ## Tools
 
-We borrowed code from OpenAI's GPT-3 API (https://github.com/manekinekko/openai-chat/tree/main).
+We borrowed code from OpenAI's GPT-3 API (https://github.com/manekinekko/openai-chat/tree/main, https://platform.openai.com/docs/guides/gpt/chat-completions-api).
 
 ## Installation
 
